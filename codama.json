@@ -1,0 +1,22 @@
+{
+    "idl": "target/idl/happeningsmarket.json",
+    "before": [],
+    "scripts": {
+        "js": {
+            "from": "@codama/renderers-js",
+            "args": [
+                "clients/js/src/generated"
+            ]
+        },
+        "rust": {
+            "from": "@codama/renderers-rust",
+            "args": [
+                "programs/happeningsmarket/Cargo.toml/src/generated",
+                {
+                    "crateFolder": "programs/happeningsmarket/Cargo.toml",
+                    "formatCode": true
+                }
+            ]
+        }
+    }
+}
