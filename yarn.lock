@@ -7,14 +7,14 @@
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz"
   integrity sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==
 
-"@codama/cli@1.3.7":
-  version "1.3.7"
-  resolved "https://registry.npmjs.org/@codama/cli/-/cli-1.3.7.tgz"
-  integrity sha512-6YhMVFgShlcQYDRG/2+iS+iaFOEZoBg91370hU62ypfioQRanDYAbM7JjVNeNrf3eP1mYoaAOnCgke7/F2YbIQ==
+"@codama/cli@1.4.3":
+  version "1.4.3"
+  resolved "https://registry.npmjs.org/@codama/cli/-/cli-1.4.3.tgz"
+  integrity sha512-I6EdKY0e/6OFQpPgwa+qnts/dpWESIXRg0Zmwd6LR7WIL+6tOV1MYMbhrkYCGxxp1N0zkEiMShc9U6m7wj8oew==
   dependencies:
-    "@codama/nodes" "1.4.0"
-    "@codama/visitors" "1.4.0"
-    "@codama/visitors-core" "1.4.0"
+    "@codama/nodes" "1.4.4"
+    "@codama/visitors" "1.4.4"
+    "@codama/visitors-core" "1.4.4"
     commander "^14.0.2"
     picocolors "^1.1.1"
     prompts "^2.4.2"
@@ -37,6 +37,15 @@
     commander "^14.0.1"
     picocolors "^1.1.1"
 
+"@codama/errors@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/@codama/errors/-/errors-1.4.4.tgz"
+  integrity sha512-XC86H5X+zGTi0cSRKLc+wFkeXNsvnh+ttOgVnVHIljmXOJWbUt9wXhKding3UftipLWwlHPuoswERJ0vS0mO2A==
+  dependencies:
+    "@codama/node-types" "1.4.4"
+    commander "^14.0.2"
+    picocolors "^1.1.1"
+
 "@codama/node-types@1.3.6":
   version "1.3.6"
   resolved "https://registry.npmjs.org/@codama/node-types/-/node-types-1.3.6.tgz"
@@ -46,6 +55,11 @@
   version "1.4.0"
   resolved "https://registry.npmjs.org/@codama/node-types/-/node-types-1.4.0.tgz"
   integrity sha512-h5yNdI6CmSWwjyVQ03b15faI6xC35ytqOzTQQ09uA6GUnsQyESce3nZGbrwGy9Gape12JfFdmsxziVtLB0Ldkg==
+
+"@codama/node-types@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/@codama/node-types/-/node-types-1.4.4.tgz"
+  integrity sha512-uUeIz34Id/TTAMi4k5OVl9FByM/PawnlNIIVqgpooH9AS0UlniICZ+KJ/mdHZidJs/AGo6bSRoOPS1BLtMajyw==
 
 "@codama/nodes-from-anchor@^1.3.0":
   version "1.3.0"
@@ -73,6 +87,14 @@
   dependencies:
     "@codama/errors" "1.3.6"
     "@codama/node-types" "1.3.6"
+
+"@codama/nodes@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/@codama/nodes/-/nodes-1.4.4.tgz"
+  integrity sha512-JzlY5qLk3rhsnu0nerC/Vkc9/2HjdsLtEpBtST0dxC1j9kpfHvIc2uyIj+5hlB1YIBRJIDNo+UOHGla8hidkaA==
+  dependencies:
+    "@codama/errors" "1.4.4"
+    "@codama/node-types" "1.4.4"
 
 "@codama/renderers-core@^1.2.2":
   version "1.2.4"
@@ -181,14 +203,14 @@
     "@codama/nodes" "1.3.6"
     "@codama/visitors-core" "1.3.6"
 
-"@codama/validators@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/@codama/validators/-/validators-1.4.0.tgz"
-  integrity sha512-zvUnGS0Q/uUG7rFWQMIeEjwhlPTg2+5xZ+mfHJWnsbJKPhiGMFwTm6/F9Plnl6rloTaHAZ/7X3qqvKG0xouxyA==
+"@codama/validators@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/@codama/validators/-/validators-1.4.4.tgz"
+  integrity sha512-IbSOrfoR4R5oKs3euydfujCbJoOAr/ngjsvJ4VQM2Q/bTOcfdlsG3NvJF0ny/yq1Jvmi8Su9cl1pzDCumJpHAA==
   dependencies:
-    "@codama/errors" "1.4.0"
-    "@codama/nodes" "1.4.0"
-    "@codama/visitors-core" "1.4.0"
+    "@codama/errors" "1.4.4"
+    "@codama/nodes" "1.4.4"
+    "@codama/visitors-core" "1.4.4"
 
 "@codama/visitors-core@^1.3.7", "@codama/visitors-core@^1.4.0", "@codama/visitors-core@1.4.0":
   version "1.4.0"
@@ -208,6 +230,15 @@
     "@codama/nodes" "1.3.6"
     json-stable-stringify "^1.3.0"
 
+"@codama/visitors-core@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/@codama/visitors-core/-/visitors-core-1.4.4.tgz"
+  integrity sha512-vk/4tczViAUHa7c8PF7FxN+JWbuTcDB0pIdrDbbO6eBPKDPQGZCUCEp6rXIYBVxfO129jWrNf2+CuyYre/c/vA==
+  dependencies:
+    "@codama/errors" "1.4.4"
+    "@codama/nodes" "1.4.4"
+    json-stable-stringify "^1.3.0"
+
 "@codama/visitors@1.4.0":
   version "1.4.0"
   resolved "https://registry.npmjs.org/@codama/visitors/-/visitors-1.4.0.tgz"
@@ -216,6 +247,15 @@
     "@codama/errors" "1.4.0"
     "@codama/nodes" "1.4.0"
     "@codama/visitors-core" "1.4.0"
+
+"@codama/visitors@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/@codama/visitors/-/visitors-1.4.4.tgz"
+  integrity sha512-3w2aRNvGV6/rXTfRDynXR82zoAqX0P4tlfQ/zT4I4Bby4xTobKgDZLyAstodmA0D878eKW7sMg4Gb1m1R5dOig==
+  dependencies:
+    "@codama/errors" "1.4.4"
+    "@codama/nodes" "1.4.4"
+    "@codama/visitors-core" "1.4.4"
 
 "@coral-xyz/anchor-errors@^0.31.1":
   version "0.31.1"
@@ -1172,16 +1212,16 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
-codama@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/codama/-/codama-1.4.0.tgz"
-  integrity sha512-T4VQ5X1tONUDy+aa7noQeIxqiXuX4d9wJSAZgR0kPS03rl2LIF/pp9GgoeENevC/aX9xF7JJ8LH6Qu/Ogx6+aw==
+codama@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/codama/-/codama-1.4.4.tgz"
+  integrity sha512-DpS9XRftrck13FRbSh6hR8V+loAPdtuuFRKixKyAahdR1R4T/EJJ9G78JqBfVXow+4lJ1NKhNlvHKKEJPaE+FQ==
   dependencies:
-    "@codama/cli" "1.3.7"
-    "@codama/errors" "1.4.0"
-    "@codama/nodes" "1.4.0"
-    "@codama/validators" "1.4.0"
-    "@codama/visitors" "1.4.0"
+    "@codama/cli" "1.4.3"
+    "@codama/errors" "1.4.4"
+    "@codama/nodes" "1.4.4"
+    "@codama/validators" "1.4.4"
+    "@codama/visitors" "1.4.4"
 
 color-convert@^2.0.1:
   version "2.0.1"

@@ -11,9 +11,9 @@
         "rust": {
             "from": "@codama/renderers-rust",
             "args": [
-                "programs/happeningsmarket/Cargo.toml/src/generated",
+                "clients/rust/src/generated",
                 {
-                    "crateFolder": "programs/happeningsmarket/Cargo.toml",
+                    "crateFolder": "clients/rust",
                     "formatCode": true
                 }
             ]

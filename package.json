@@ -14,7 +14,7 @@
     "@metaplex-foundation/umi": "^1.4.1",
     "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
     "@solana/kit": "^5.0.0",
-    "codama": "^1.4.0"
+    "codama": "^1.4.4"
   },
   "devDependencies": {
     "@types/bn.js": "^5.1.0",
